@@ -2,9 +2,9 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './HomeScreen';
-import SearchResultsScreen from './SearchResultsScreen';
-import CameraScreen from './CameraScreen';
+import HomeScreen from './src/HomeScreen';
+import SearchResultsScreen from './src/SearchResultsScreen';
+import CameraScreen from './src/CameraScreen';
 
 const Tab = createBottomTabNavigator();
 
